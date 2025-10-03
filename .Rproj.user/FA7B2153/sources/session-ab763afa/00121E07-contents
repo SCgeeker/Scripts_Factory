@@ -1,0 +1,40 @@
+try {
+  console.log("Starting inline script...");
+
+  const reverseScoredItems = [3, 4, 5, 7, 8, 9, 12, 16, 17];
+  let totalScore = 0;
+
+  const submitButton = document.getElementById('submit-button');
+  submitButton.addEventListener('click', () => {
+    console.log("Submit button clicked.");
+
+    console.log("Calculating score...");
+    for (let i = 0; i < 18; i++) {
+      const response = vars[`q${i}`];
+      if (response !== undefined) {
+        let score = parseInt(response);
+        if (reverseScoredItems.includes(i + 1)) {
+          score = 5 - score;
+        }
+        totalScore += score;
+      }
+    }
+    console.log("Score calculated:", totalScore);
+
+    console.log("Appending result data to JATOS...");
+    jatos.appendResultData({ nfc_score: totalScore })
+      .then(() => {
+        console.log("Result data appended successfully.");
+        console.log("Starting next component...");
+        jatos.startNextComponent();
+      })
+      .catch((error) => {
+        console.error("Error appending result data:", error);
+        alert("An error occurred while saving the data. Please contact the researcher.");
+      });
+  });
+
+} catch (error) {
+  console.error("An error occurred in the inline script:", error);
+  alert("An unexpected error occurred. Please contact the researcher.");
+}

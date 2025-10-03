@@ -1,0 +1,14 @@
+## Pre-requirements
+
+- R & Rstudio(latest version)
+- Powershell(WIN)
+- google account(with google one authority)
+- OpenSesame
+- JATOS servers accounts(cortex, mindprobe)
+
+
+## Setups
+
+- Rstudio: Terminal (global -> powershell)
+- install gemini [tutorial by Auden](https://codelove.tw/@tony/post/qvpDJ3)
+

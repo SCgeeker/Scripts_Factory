@@ -1,0 +1,46 @@
+set source_file ""
+set source table
+set repeat 1
+set order random
+set description "Repeatedly runs another item"
+set cycles 18
+set continuous no
+set break_if_on_first yes
+set break_if never
+setcycle 0 Question "我比較喜歡複雜而不喜歡簡單的問題。"
+setcycle 0 score ""
+setcycle 1 Question "我願意負責解決要花很多腦筋的事。"
+setcycle 1 score ""
+setcycle 2 Question "我不以思考為樂。"
+setcycle 2 score r
+setcycle 3 Question "我比較喜歡去做不用思考的事,而不願去做需要思考的事。"
+setcycle 3 score r
+setcycle 4 Question "我對那些要花很多心思去想事情的情境,避之唯恐不及。"
+setcycle 4 score r
+setcycle 5 Question "我從深思和長考中得到滿足。"
+setcycle 5 score ""
+setcycle 6 Question "我不費心去多想。"
+setcycle 6 score r
+setcycle 7 Question "與其去想一些長期計劃,我寧願想一些小的日常計劃。 "
+setcycle 7 score r
+setcycle 8 Question "我喜歡那些一旦學會就不用再想的工作。"
+setcycle 8 score r
+setcycle 9 Question "靠著思考去往上爬的想法正合我意。"
+setcycle 9 score ""
+setcycle 10 Question "我喜歡那些需要想出新的方法來解決問題的工作。"
+setcycle 10 score ""
+setcycle 11 Question "學習新的思考方式沒有甚麼意思。"
+setcycle 11 score r
+setcycle 12 Question "我願我這一生充滿著我必須解決的難題。"
+setcycle 12 score ""
+setcycle 13 Question "我喜歡抽象地思考。"
+setcycle 13 score ""
+setcycle 14 Question "我喜歡需要動腦筋且困難的重要工作,而不喜歡還算重要但不需多想的工作。"
+setcycle 14 score ""
+setcycle 15 Question "當我完成一件很費心力的工作後,我感到的是解脫而不是滿足。"
+setcycle 15 score r
+setcycle 16 Question "我只在乎工作是否完成,我不在意 它是如何或爲何做成的。"
+setcycle 16 score r
+setcycle 17 Question "即使一些事務跟我個人沒有切身關係,我常會去對它們深思熟慮一番。"
+setcycle 17 score ""
+run qeustion_seq

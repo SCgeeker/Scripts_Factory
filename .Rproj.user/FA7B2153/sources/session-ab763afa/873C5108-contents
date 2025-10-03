@@ -1,0 +1,217 @@
+<style>
+  .question {
+    margin-bottom: 1em;
+  }
+  .likert-scale {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+  .likert-item {
+    text-align: center;
+  }
+</style>
+
+<div class="question">
+    <p>1. 我比較喜歡複雜而不喜歡簡單的問題。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q0" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q0" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q0" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q0" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q0" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q0" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>2. 我願意負責解決要花很多腦筋的事。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q1" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q1" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q1" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q1" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q1" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q1" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>3. 我不以思考為樂。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q2" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q2" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q2" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q2" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q2" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q2" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>4. 我比較喜歡去做不用思考的事,而不願去做需要思考的事。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q3" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q3" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q3" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q3" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q3" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q3" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>5. 我對那些要花很多心思去想事情的情境,避之唯恐不及。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q4" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q4" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q4" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q4" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q4" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q4" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>6. 我從深思和長考中得到滿足。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q5" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q5" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q5" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q5" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q5" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q5" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>7. 我不費心去多想。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q6" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q6" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q6" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q6" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q6" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q6" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>8. 與其去想一些長期計劃,我寧願想一些小的日常計劃。 </p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q7" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q7" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q7" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q7" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q7" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q7" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>9. 我喜歡那些一旦學會就不用再想的工作。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q8" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q8" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q8" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q8" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q8" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q8" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>10. 靠著思考去往上爬的想法正合我意。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q9" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q9" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q9" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q9" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q9" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q9" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>11. 我喜歡那些需要想出新的方法來解決問題的工作。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q10" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q10" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q10" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q10" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q10" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q10" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>12. 學習新的思考方式沒有甚麼意思。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q11" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q11" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q11" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q11" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q11" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q11" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>13. 我願我這一生充滿著我必須解決的難題。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q12" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q12" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q12" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q12" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q12" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q12" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>14. 我喜歡抽象地思考。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q13" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q13" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q13" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q13" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q13" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q13" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>15. 我喜歡需要動腦筋且困難的重要工作,而不喜歡還算重要但不需多想的工作。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q14" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q14" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q14" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q14" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q14" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q14" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>16. 當我完成一件很費心力的工作後,我感到的是解脫而不是滿足。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q15" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q15" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q15" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q15" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q15" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q15" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>17. 我只在乎工作是否完成,我不在意 它是如何或爲何做成的。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q16" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q16" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q16" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q16" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q16" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q16" value="5"> 非常符合</li>
+    </ul>
+</div>
+<div class="question">
+    <p>18. 即使一些事務跟我個人沒有切身關係,我常會去對它們深思熟慮一番。</p>
+    <ul class="likert-scale">
+        <li class="likert-item"><input type="radio" name="q17" value="0" required> 非常不符合</li>
+        <li class="likert-item"><input type="radio" name="q17" value="1"></li>
+        <li class="likert-item"><input type="radio" name="q17" value="2"></li>
+        <li class="likert-item"><input type="radio" name="q17" value="3"></li>
+        <li class="likert-item"><input type="radio" name="q17" value="4"></li>
+        <li class="likert-item"><input type="radio" name="q17" value="5"> 非常符合</li>
+    </ul>
+</div>
+
+<button id="submit-button">填寫完畢</button>
+
+

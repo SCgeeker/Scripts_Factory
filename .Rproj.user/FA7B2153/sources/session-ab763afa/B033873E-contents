@@ -1,0 +1,21 @@
+## AI提示說明
+
+- 此專案的根目錄是管理各種實驗腳本的工作資料夾
+- 導入代理AI協助腳本程式碼編輯與管理
+- 代理AI有權限管理此專案的所有檔案
+
+## Pre-requirements
+
+- R & Rstudio(latest version)
+- Powershell(WIN)
+- [Node.js](https://nodejs.org/en/download) 
+- google account(with google one authority)
+- OpenSesame
+- JATOS servers accounts(cortex, mindprobe)
+
+
+## Setups
+
+- Rstudio: Terminal (global -> powershell)
+- install gemini [tutorial by Auden](https://codelove.tw/@tony/post/qvpDJ3)
+
