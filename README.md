@@ -1,6 +1,11 @@
 # Scripts Factory: A Project for Creating and Managing Experimental Scripts
 # 腳本工廠：一個用於建立與管理實驗腳本的專案
 
+## Getting the Project Template (取得專案模板)
+
+You can download this project template as a ZIP file from GitHub. Go to the main page of the repository (https://github.com/SCgeeker/Scripts_Factory) and click on the "Code" button, then "Download ZIP".
+您可以從 GitHub 下載此專案模板的 ZIP 檔案。前往儲存庫的主頁 (https://github.com/SCgeeker/Scripts_Factory) 並點擊「Code」按鈕，然後點擊「Download ZIP」。
+
 This project is a workspace for developing and managing experimental scripts for research, with a focus on using OpenSesame and JATOS for online experiments. It is designed to be used with an AI assistant to streamline the development process.
 本專案是一個用於開發和管理研究用實驗腳本的工作空間，重點在於使用 OpenSesame 和 JATOS 進行線上實驗。它被設計為與 AI 助理一同使用，以簡化開發流程。
 
