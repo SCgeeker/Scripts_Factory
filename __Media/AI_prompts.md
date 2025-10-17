@@ -29,3 +29,7 @@
 -[x] 更新GEMINI.md的專案描述
 -[x] 重新commint git branch "main"
 -[x] 推送"main"至github
+-[x] 參考https://osdoc.cogsci.nl/4.1/manual/osweb/data/ 編輯下載並匯出原始資料csv至"3_DataClean"的流程指引，存為"3_DataClean\README.md"
+-[x] 撰寫能從"presurvey.csv"提取欄位名稱q1:q22的R code，並做簡單描述統計
+-[ ] 複製"3_DataClean\README.md"到master分支
+-[ ] commit master分支並push到github分支
